@@ -1,0 +1,11 @@
+[http]
+	proxy = http://127.0.0.1:15732
+[https]
+	proxy = http://127.0.0.1:15732
+[color]
+	ui = true
+[user]
+	email = 52wdwpf@gmail.com
+	name = zhoooou
+[core]
+	editor = nvim
