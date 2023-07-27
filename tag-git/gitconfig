@@ -9,3 +9,5 @@
 	name = zhoooou
 [core]
 	editor = nvim
+[credential]
+	helper = store
