@@ -1,1 +1,1 @@
-###This is a dotfile for my Archlinux
+###	This is a dotfile for my Archlinux
