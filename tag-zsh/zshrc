@@ -143,3 +143,5 @@ alias vi=vim
 export NEMU_HOME=/home/zhoooou/Arc/ysyx-workbench/nemu
 export AM_HOME=/home/zhoooou/Arc/ysyx-workbench/abstract-machine
 export NPC_HOME=/home/zhoooou/Arc/ysyx-workbench/npc
+export NVBOARD_HOME=/home/zhoooou/Arc/ysyx-workbench/nvboard
+
