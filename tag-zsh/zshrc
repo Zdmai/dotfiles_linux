@@ -140,6 +140,8 @@ alias grep='grep --color=auto'
 
 alias vi=vim
 alias riscv-gcc=riscv64-linux-gnu-gcc
+alias riscv-gdb=riscv64-linux-gnu-gdb
+alias riscv-objdump=riscv64-linux-gnu-objdump
 
 export NEMU_HOME=/home/zhoooou/Arc/ysyx-workbench/nemu
 export AM_HOME=/home/zhoooou/Arc/ysyx-workbench/abstract-machine
