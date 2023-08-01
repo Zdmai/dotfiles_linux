@@ -139,9 +139,9 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 alias vi=vim
+alias riscv-gcc=riscv64-linux-gnu-gcc
 
 export NEMU_HOME=/home/zhoooou/Arc/ysyx-workbench/nemu
 export AM_HOME=/home/zhoooou/Arc/ysyx-workbench/abstract-machine
 export NPC_HOME=/home/zhoooou/Arc/ysyx-workbench/npc
 export NVBOARD_HOME=/home/zhoooou/Arc/ysyx-workbench/nvboard
-
