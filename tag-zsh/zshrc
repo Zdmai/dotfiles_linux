@@ -139,9 +139,10 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 alias vi=vim
-alias riscv-gcc=riscv64-linux-gnu-gcc
-alias riscv-gdb=riscv64-linux-gnu-gdb
-alias riscv-objdump=riscv64-linux-gnu-objdump
+alias rvgcc=riscv64-linux-gnu-gcc
+alias rvgdb=riscv64-linux-gnu-gdb
+alias rvobjdump=riscv64-linux-gnu-objdump
+alias rv32gcc=riscv64-linux-gnu-gcc -march=rv32 -mabi=ilp32
 
 export NEMU_HOME=/home/zhoooou/Arc/ysyx-workbench/nemu
 export AM_HOME=/home/zhoooou/Arc/ysyx-workbench/abstract-machine

@@ -1,4 +1,6 @@
 syntax on
+set nocompatible
+
 set background=dark
 set showmatch
 set ignorecase
@@ -12,6 +14,9 @@ set ruler " 打开状态栏标尺
 set shiftwidth=2 " 设定 << 和 >> 命令移动时的宽度为 2
 set softtabstop=2 " 使得按退格键时可以一次删掉 2 个空格
 set tabstop=2 " 设定 tab 长度为 2
+
+set showtabline=2 " 设置tabpage的buffer
+
 set nobackup " 覆盖文件时不备份
 set autochdir " 自动切换当前目录为当前文件所在的目录
 set backupcopy=yes " 设置备份时的行为为覆盖
@@ -31,5 +36,7 @@ set foldmethod=syntax
 set foldcolumn=0 
 setlocal foldlevel=1
 nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR> 
+
+filetype plugin on
 
 inoremap ii <esc>
